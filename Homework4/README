@@ -1,0 +1,51 @@
+CSCI 4229 (Computer Graphics)
+Fall 2016
+University of Colorado Boulder
+Homework 4
+
+ESTIMATED TIME SPENT: 3 hours and 00 minutes
+
+---Folders---
+Huynh-Peter_HW4             - Assignment description and documentation ZIPPED
+
+---Files---
+hw4.c                       - Source Code for the assignment
+makefile                    - makefile used to compile assignment
+README                      - This file
+hw4.o                       - Linker file used for compling the executable
+
+---Executables---
+./hw4                       - Executable version of the assignment
+
+---Examples---
+Build:
+ make
+
+Clean:
+ make clean
+
+---Key-Bindings---
+  ESC    Exit
+  `      Reset all of the display to initial startup settings
+  1      Reset view angle to y,z
+  2      Reset view angle to x,z
+  3      Reset view angle to x,y
+  4      Reset to default zoom
+  q      Change View Mode
+  w      Zoom In
+  s      Zoom Out
+  a      Cycle through previous set of objects
+  d      Cycle through next set of objects
+  e      Toggle axes
+  r      Increase Field of View
+  f      Decrease Field of View
+  arrows Change view angle
+ 
+  x      Toggle between First Person Mode
+  WASD   Basic World Movement in First Person Mode
+ 
+  mouse motion  Change view angle, dynamically
+  mouse scroll  Changes Zoom value, dynamically
+  mouse left    Cycle through previous set of objects
+  mouse right   Cycle through next set of objects
+  mouse middle  Reset position

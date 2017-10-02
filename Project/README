@@ -1,0 +1,84 @@
+CSCI 4229 (Computer Graphics)
+Fall 2016
+University of Colorado Boulder
+Final Project
+
+---Description---
+An OpenGL project that embodies eveything taught in CSCI 4229.
+Contains Lighting, Transparency, Fog, Textures, Skybox, Object Loading and other elements taught.
+
+FINAL PROJECT DESCRIPTION:
+All animated portions of the assignment are complete.
+The bird's materials are properly transported into openGL,using two differnt obj files switching in and out to 
+animate bird flapping.
+
+For the day and night cycles, this was accomplish through a multitude of tricks. The skybox is slightly transparent 
+and has a function cycling the cube background colors from black to white while dimming fog intensity and ambient light. 
+After a while the program swaps between two sky textures during high fog and peak lighting states and changes light position.
+
+Rain: Each transparent vertex particle is set with a stardard life value, a random decaying value, random positions and
+simply translates movement downward until the life value is less than zero. Then the function checks to reset the life/pos
+Hail: To mimic the bouncing of hail, there is an added condition to inverse the velocity value once the hail reaches 
+a certain y value (the floor). Hail is also faster then rain and whiter blue. It's still transparent, but now cube shaped.
+Snow: A slower rain function with slow and ball shaped properties. It now changes the floor vertices (SHAPE) and color through 
+an initially invisible field under the floor. The particle field also has normals to better reflect light to the new snow shape.
+
+I added normals onto each particle of rain, hail and snow. Transparency was also added to better reflect liquid and lighting, 
+with modifications on floor contact behavior. Properties in the functions were changed to better reflect realistic weather within
+the scene, with more particles, larger area and more randomness compared to its source, since the source was rather similar 
+to a simple rain function with little variation. Hail now Bounces as compared to the source and Normals are on the snowy 
+ground vertices, snow now accumalates further and reshapes the ground.
+
+Object models were modified to work with the object.c file importer, with bitmaps and normals redone correctly via Blender to 
+match the scene's lighting (Mostly the tree).
+
+THE PROGRAM TAKES 80 SECONDS TO CYCLE THROUGH 1 FULL DAY, NIGHT AND RANDOM WEATHER CYCLE.
+
+---Folders---
+Huynh-Peter_Project         - Assignment description and documentation ZIPPED
+assets                      - Contains Skybox and Grass Image files
+
+---Files---
+hwFinal.c                   - Source Code for the assignment
+makefile                    - makefile used to compile assignment
+README                      - This file
+~.o                         - Linker file used for compling the executable
+~.h                         - Header Files, includes class library header
+~.c                         - Class Library Files for Loading Textures, Objects, Light Projections, Printing, etc.
+~.mtl                       - Material Files for any imported object files (.obj)
+~.obj                       - Object Files for model importing.
+~.bmp                       - Bitmap image files for textures
+All other c and o files are related to the CSCIx229.h header file
+
+---Executables---
+./hwFinal                   - Executable version of the assignment
+
+---Examples---
+Build:
+ make
+
+Clean:
+ make clean
+
+---Key-Bindings---
+ ESC                        - Exit
+ 1                          - Rain Mode, Default Mode
+ 2                          - Hail Mode
+ 3                          - Snow Mode, WARNING: LAGGY
+ w/a/s/d                    - Move around along x-z axis, like typical video games
+ arrows                     - Change view angle
+ page up                    - Fly Up
+ page down                  - Fly Down
+
+
+---CREDITS---
+ALL THINGS WERE MODIFIED FROM THE FOLLOWING SOURCES
+ Sky Box:                   Modified from Example 25
+ Blending & Transparency:   Modified from Example 22
+ Bird Third Person:         Modified from Example 20
+ Lighting:                  Modified from Example 13
+ Fog:                       Based off November 7-13 Slides
+ Weather Particle Source:   Modified from https://classes.soe.ucsc.edu/cmps161/Winter09/projects/mang/finalproject.html
+ Bird Model Source:         Parts of http://www.blendswap.com/blends/view/25541
+ Grass and Skybox Textures: Modified from https://www.youtube.com/watch?v=rqx9IDLKV28
+ Tree Source:               Modified http://www.blendswap.com/blends/view/82037

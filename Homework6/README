@@ -1,0 +1,72 @@
+CSCI 4229 (Computer Graphics)
+Fall 2016
+University of Colorado Boulder
+Homework 6
+
+ESTIMATED TIME SPENT: 5 hours and 00 minutes
+
+NOTES: Mapping Textures to a torus is harder than I imagined... I have to figure out how to map which parts of the image to the creation
+Eventually, I found a way to may the texture based on ever iteration, wrapping around the circles the loop was making for the torus
+
+---Folders---
+Huynh-Peter_HW6             - Assignment description and documentation ZIPPED
+
+---Files---
+hw6.c                       - Source Code for the assignment
+makefile                    - makefile used to compile assignment
+README                      - This file
+hw6.o                       - Linker file used for compling the executable
+All other c and o files are related to the CSCIx229.h header file
+
+---Executables---
+./hw6                       - Executable version of the assignment
+
+---Examples---
+Build:
+ make
+
+Clean:
+ make clean
+
+---Key-Bindings---
+ ESC    Exit
+ `             Reset all of the display to initial startup settings
+ 1             Reset view angle to y,z
+ 2             Reset view angle to x,z
+ 3             Reset view angle to x,y
+ 4             Reset to default zoom
+ *
+ 5 / %         Lower/rise light
+ 6 / ^         Decrease/increase ambient light
+ 7 / &         Decrease/increase diffuse light
+ 8 /        Decrease/increase specular light
+ 9 / (         Decrease/increase emitted light
+ 0 / )         Decrease/increase shininess
+
+ q             Change View Mode
+ w             Zoom In
+ s             Zoom Out
+ a             Manually move light clockwise
+ d             Manually move light counter clockwise
+ e             Toggle axes
+ r             Increase Field of View
+ f             Decrease Field of View
+ arrows        Change view angle
+
+ z             Toggle Lighting
+ x             Toggle Light Movement
+
+ c             Toggle between First Person Mode
+ WASD          Basic World Movement in First Person Mode
+
+ F1            Toggle smooth/flat shading
+ F2            Toggle local viewer mode
+ F3            Toggle light distance (1/5)
+ F8            Change ball increment
+ F9            Invert bottom normal
+
+ mouse motion  Change view angle, dynamically
+ mouse scroll  Changes Zoom value, dynamically
+ mouse left    Cycle through previous set of objects
+ mouse right   Cycle through next set of objects
+ mouse middle  Reset position

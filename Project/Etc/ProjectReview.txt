@@ -1,0 +1,34 @@
+PROJECT REVIEW:
+I'm mostly done with the core animated portions of the assignment. Originally, I set out to created my 
+own bird object in blender, but ran into issues when setting the texture material (mtl) settings and animations.
+I decided to scrap the model are start again with a fresh open source bird .obj (Pokemon). The bird's materials 
+are properly transported into openGL, and this was primarily done via inspecting the Object.c file to figure 
+out what how it was to be properly ported.
+
+As for the day and night cycles, I managed to accomplish this through a multitude of tricks. I set the skybox to be
+barely transparent and have a function cycle through, changing the cube's background color from black to white
+slowly. This dimmed and brighten the texture of the skybox. Then I also set a cycling thickness for fog to get
+thicker as the program swapped out the texture of the cube with another set of bitmaps. All the while, ambient
+lighting also scaled up and down within this cycling function to give the sense of day an night light levels.
+
+The weather portion of this program seemed to be the most challenging portion. First I created a structure to hold
+particle properties and create an array to whole every single rain, snow, or hail particle. Then I had three different
+functions to animate the properties of the weather.
+Rain is the simplest function. Each particle is set with a stardard life value, a random decaying value, and 
+simply translates movement downward until the life value is less than zero. Then the function checks for life to restart
+Hail is slightly different. To mimic the bouncing of hail, there is an added condition to inverse the velocity
+value once the hail reaches a certain y value (the floor).
+Snow was the most difficult thing to implement. At first the function was simply a slower rain function with varying
+properties. However, to create floor accumlation of snow, there is a set invisible particle field array of vertices
+under the ground that slowly changes it's color and shape values as a particle contacts it.
+
+PLEASE VIEW THE SNOW MODE. It's a bit laggy and slow, but finding the normals prove to a bit of a challenge and the 
+changing ground is a nice view. To prevent lag and drops in frames, I set the snow particle field to a small portion 
+in the center of the world spawn, much smaller than the ground and traversable field.
+
+For the things remaining, I intend on getting the bird animated by having some small transformation function on its 
+wings to give it the illusion of flapping. I can also jump into Blender and set some animation frames, but this might 
+prove difficult to import. Another option would be to have the object alternate between slightly varying .obj files 
+with different wing positions. As for what else needs to be done with the world, I still need to populate the map 
+with other object an scenery.This can be easily done with obj and mtl files. I must, however, ensure that the lighting 
+changes match the normals of the objects.

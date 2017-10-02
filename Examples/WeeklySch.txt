@@ -1,0 +1,138 @@
+ Class Forum
+ Class Policies URL
+ Installing OpenGL URL
+ Course Description URL
+
+August 22 - August 28
+Introduction OpenGL
+
+ Ex 1-5: Hello World URL
+ Slides: Overview URL
+ Slides: Introduction to OpenGL URL
+
+August 29 - September 4
+Drawing in 2D & Clipping
+
+ HW 0: Who Am I Assignment
+ Clipping Programs URL
+ Clipping Algorithms URL
+ Slides: Dimensions URL
+ Slides: Drawing in 2D URL
+
+September 5 - September 11
+Homogeneous Coordinates; Visibility
+
+ HW 1: gears Assignment
+ Ex 6: Homogeneous Coordinates URL
+ Ex 7: Visibility URL
+ Slides: Homogeneous Coordinates URL
+ Slides: Drawing in 3D - Visibility URL
+
+September 12 - September 18
+Drawing in 3D - Objects & Projections
+
+ HW2: Lorenz Attractor Assignment
+ Ex 8: Objects URL
+ Ex 9: Projections URL
+ Slides: Drawing in 3D - Projections URL
+
+September 19 - September 25
+Drawing in 3D - Applications
+
+ HW3: Scene in 3D Assignment
+ Ex 10: Polygon Offset URL
+ Ex 11: GPS Trace URL
+ Slides: Drawing in 3D - Coordinates URL
+ Slides: Drawing in 3D - Objects URL
+
+September 26 - October 2
+Color and Light
+
+ HW4: Projections Assignment
+ Ex 12: Colors URL
+ Ex 13: Lighting URL
+ Slides: Color andLight URL
+
+October 3 - October 9
+Textures
+
+ HW5: Lighting Assignment
+ Ex 14: Textures URL
+ Ex 15: Lighting and Textures URL
+ Ex 16: Lego Brick URL
+ Slides: Textures URL
+
+October 10 - October 16
+Application of Lighting and Textures
+
+ Project Proposal Assignment
+ Ex 17: Draped textures URL
+ Ex 18: Solar System URL
+ Ex 19: Gold Coin URL
+ Ex 20: Cockpit URL
+
+October 17 - October 23
+Advanced lighting; Transparency
+
+ HW 6: Lighting and textures Assignment
+ Ex 21: More lighting URL
+ Ex SDL1: More Lighting - SDL URL
+ Ex 22: Transparency URL
+ Ex 23: Mixed Transparency URL
+ Slides: More Lighting URL
+ Slides: Blending & Transparency URL
+
+October 24 - October 30
+Display lists and Complex Objects
+
+ Ex 24: Display Lists URL
+ Ex 25: Thunderbirds URL
+ Ex 26: Object Loader URL
+ Slides: Display Lists URL
+ OBJ Format Objects URL
+
+October 31 - November 6
+Shaders
+
+ Ex 27: Shaders URL
+ Slides: Shaders URL
+
+November 7 - November 13
+Fog, Anti-aliasing and Tesselation
+
+ Progress Report Assignment
+ Ex 28: Anti-aliased lines: X URL
+ Ex 29: Anti-aliased lines: Lorenz URL
+ Ex 30: Complex Polygons URL
+ Example Qt: Lorenz URL
+ Slides: Fog URL
+ Slides: Drawing Lines and Anti-aliasing URL
+ Slides: Polygons URL
+This week
+November 14 - November 20
+Parametric curves and surfaces
+
+ Ex 31: Bezier Curves URL
+ Ex 32: Piecewise Polynomials URL
+ Ex 33: Utah Teapot URL
+ Slides: Parametric Curves URL
+ Slides: Parametric Surfaces URL
+
+November 21 - November 27
+Thanksgiving - NO CLASS
+
+
+November 28 - December 4
+Shadows
+
+ Project Review Assignment
+ Ex 34: Simple Shadows URL
+ Ex 35: Shadow Volumes URL
+ Ex 36: Shadow Mapping URL
+ Slides: Shadows URL
+ Slides: Advanced Shadows URL
+
+December 5 - December 11
+Show and Tell
+
+ Final Project Assignment

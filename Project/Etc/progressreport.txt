@@ -1,0 +1,13 @@
+Describe in a few paragraphs the progress you have been making on the project,
+what you have accomplished so far, and what you plan to be working on over the
+period until the Review at Thanksgiving.
+
+In particular, if you have concerns about specific items or having difficulty
+with some aspects of your project, this is your opportunity to get my feedback
+on such problems.
+
+Currently, I've made some moderate headway for the crucial parts of my project. I've been using Blender to make object models to import into OpenGL. Thus far, I've modeled out my flying bird and learned how to import, scale and texture the model within C++ OpenGL. It's rather amazing to see how large the blender objects are compared to the homework assignments, and it's also really nice that the files handle all the lighting normals and vertex drawing. The majority of my time for this aspect of the project has actually been modeling the bird object itself, which was more time consuming than I original anticipated. However, I may need to rework on this model as I've encounter some weird lighting issues.
+
+Other than figuring out how to handle the bird model in blender, I've also used the example codes for sky box creation and camera moving. I've modeled my project around the example involving airplanes flying around the sky within a detailed world. However, I intend to populate my graphics project world with other objects other than the sky box and floor. Hopefully, I can model my own things in Blender, but I'm also looking into finding free use objects to import.
+
+Finally, I've been dabbling in particle creation to simulate rain and snow within the world. I got inspiration for this in the last lecture, during the demo of the Advance Graphic's homework projects. I found this nifty guide from the University of California, Santa Cruz explaining how to use particles to mimic rainfall in OpenGL. Right now, I'm trying to modify the existing example the guide provided to better mimic snow and potentially wind gusts as well. As of right now, I'm planning on working on a way to transition these states of weather from one another.

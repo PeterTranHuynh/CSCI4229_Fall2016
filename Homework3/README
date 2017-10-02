@@ -1,0 +1,46 @@
+CSCI 4229 (Computer Graphics)
+Fall 2016
+University of Colorado Boulder
+Homework 3
+
+ESTIMATED TIME SPENT: 5 hours and 30 minutes
+
+---Folders---
+Huynh-Peter_HW2             - Assignment description and documentation ZIPPED
+
+---Files---
+hw3.c                       - Source Code for the assignment
+Huynh-Peter_HW3_WriteUp.txt - Writeup text file 
+makefile                    - makefile used to compile assignment
+README                      - This file
+hw3.o                       - Linker file used for compling the executable
+
+---Executables---
+./hw3                       - Executable version of the assignment
+
+---Examples---
+Build:
+ make
+
+Clean:
+ make clean
+
+---Key-Bindings---
+ Key bindings:
+ `                          - Reset all of the display to initial startup settings
+ 1                          - Reset view angle to y,z
+ 2                          - Reset view angle to x,z
+ 3                          - Reset view angle to x,y
+ q                          - Reset to default zoom
+ w                          - Zoom In
+ s                          - Zoom Out
+ a                          - Cycle through previous set of objects
+ d                          - Cycle through next set of objects
+ e                          - Toggle axes
+ arrows                     - Change view angle
+ mouse motion               - Change view angle, dynamically
+ mouse scroll               - Changes Zoom value, dynamically
+ mouse left                 - Cycle through previous set of objects
+ mouse right                - Cycle through next set of objects
+ mouse middle               - Reset position
+ ESC                        - Exit

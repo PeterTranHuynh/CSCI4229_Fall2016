@@ -1,0 +1,49 @@
+CSCI 4229 (Computer Graphics)
+Fall 2016
+University of Colorado Boulder
+Homework 2
+
+---Folders---
+Huynh-Peter_HW2             - Assignment description and documentation
+
+---Files---
+Huynh-Peter_HW2.c           - Source Code for the assignment
+Huynh-Peter_HW2_WriteUp.txt - Writeup text file 
+makefile                    - makefile used to compile assignment
+README                      - This file
+Huynh-Peter_HW2.o           - Linker file used for compling the executable
+
+---Executables---
+./Huynh-Peter_HW            - Executable version of the assignment
+
+---Examples---
+Build:
+ make
+
+Clean:
+ make clean
+
+---Key-Bindings---
+ `      RGB Color Mode, default mode
+ 1      RNG Color Mode
+ 2      Enable/Disable Color Strobing
+ 3      White Color Mode
+ 4      View Tracing Only Mode
+ 5      Red Color Mode
+ 6      Green Color Mode
+ 7      Blue Color Mode
+
+ 9      YZ Coordinate View
+ 0      XZ Coordinate View
+ -      XY Coordinate View
+ =      Reset Lorenz Values
+
+ q      Increase s Lorenz Value
+ a      Decrease s Lorenz Value
+ w      Increase b Lorenz Value
+ s      Decrease b Lorenz Value
+ e      Increase r Lorenz Value
+ d      Decrease r Lorenz Value
+
+ arrows Change View Angle
+ ESC    Exit
